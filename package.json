@@ -1,0 +1,12 @@
+{
+  "name": "libreria-ci",
+  "version": "1.0.0",
+  "description": "Libreria de utilidades para el Problema 4 - CI con Jenkins",
+  "main": "src/utilidades.js",
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=text --coverageReporters=cobertura --coverageReporters=html"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
